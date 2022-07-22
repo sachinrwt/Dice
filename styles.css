@@ -55,6 +55,9 @@ button {
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
+  margin-left: 25px;
+  margin-right: 25px;
+
 }
 
 button:hover {background-color: #256952}

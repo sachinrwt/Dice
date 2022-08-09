@@ -1,7 +1,10 @@
 .container {
-  width: 70%;
+  display: flex;
+
   margin: auto;
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .dice {
@@ -23,7 +26,8 @@ h1 {
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
-  color: #4ECCA3;
+  color: #4ecca3;
+  text-align: center;
 }
 
 p {
@@ -79,4 +83,48 @@ footer {
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
+}
+
+@media screen and (max-width: 600px) {
+  .dice{
+    width: 80%;
+  }
+
+  h1 {
+    margin-top: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 35px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 4rem;
+    color: #4ecca3;
+  }
+
+  .container{
+    margin-bottom: 40px;
+  }
+
+  .button {
+    align-items: center;
+    display: inline-block;
+    padding: 5px 38px;
+    font-size: 28px;
+    cursor: pointer;
+    font-family: 'Lobster', cursive;
+    text-shadow: 1.5px 0 #232931;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4ECCA3;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3.7px #999;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+  
 }
